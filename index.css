@@ -1,0 +1,156 @@
+/* Global Css */ 
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.global-baton{
+    height: 36px;
+    width: 88px;
+    background-color: #E0ECEC;
+    color: black;
+}
+
+
+.global-section{
+    padding: 1.5rem 0;
+}
+.global-heading{
+    font-size: 39px;
+    text-align: center;
+}
+.global-head-p{
+    color: #ABD3D2;
+    text-align: center;
+}
+
+/* This is header */
+
+header{
+    background-color: #272828;
+    color: #E0ECEC;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* 1st section */
+
+
+
+.frist-section{
+    background-image: url(./pictures/BKP.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.frist-section p {
+    font-size: 1.5rem;
+}
+
+.frist-section h2{
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+/* About us section */
+
+
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    
+}
+
+.about-sub-div2{
+    width: 500px;
+}
+
+.about-sub-div2 h2{
+    font-size: 25px;
+}
+
+.about-sub-div2 p{
+    color: #272828;
+    margin: 15px 0;
+    text-align: center;
+
+}
+
+
+/* this is service area */
+
+.gitd-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 15px 0px;
+}
+.grid-single-item p{
+    color: #6a6868;
+}
+.custom-icon-size{
+    font-size: 45px;
+}
+
+/* this is work area */
+
+.work-single-img{
+    width: 150px;
+    height: 100px;
+}
+/* testmonial section */
+.testmo-p{
+    color: black !important;
+    margin-top: 5px;
+}
+
+/* Contuct section */
+.contuct-heading{
+    font-size: 46px;
+    text-align: center;
+}
+
+form textarea{
+    width: 250px;
+}
+
+form{
+    margin-left: 31rem;
+    margin-top: 17px;
+}
+
+form input{
+    width: 250px;
+}
+.submit-btn{
+    width: 145px;
+    height: 25px;
+    background-color: #272828;
+    color: #E0ECEC;
+    margin-top: 10px;
+}
+
+/* this is footer  */
+footer{
+    background-color: #272828;
+    color: #E0ECEC;
+    height: 30px;
+    text-align: center;
+}
+footer p{
+    padding-top: 12px;
+}
