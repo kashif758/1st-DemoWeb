@@ -32,9 +32,14 @@ header{
     color: #E0ECEC;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 3rem;
 }
 
-
+.main-menu ul li{
+    display: inline;
+    margin-right: 10px;
+}
 
 /* 1st section */
 
