@@ -32,16 +32,21 @@ header{
     color: #E0ECEC;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 3rem;
 }
 
-
+.main-menu ul li{
+    display: inline;
+    margin-right: 10px;
+}
 
 /* 1st section */
 
 
 
 .frist-section{
-    background-image: url(./pictures/BKP.jpg);
+    background-image: url(./pictures/bgp.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
